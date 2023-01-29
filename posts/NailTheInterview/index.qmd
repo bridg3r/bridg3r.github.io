@@ -1,0 +1,178 @@
+---
+title: "Nail the Machine Learning Engineer Interview"
+author: "Bridger Hackworth"
+date: "2023-01-27"
+categories: [news, code, recaps]
+image: "image.jpg"
+---
+
+![](machine.webp)
+
+I hate to dissapoint you, but as of right now, the title of this post is really just wishfull thinking. After all, becoming a machine learning engineer right out of college has been a great wish of mine for a while (ever since I took a course on machine learning back in Spring 2022 to be exact). A month ago, I would have said that worrying about interviews is too far off for me. A month later, I still find myself with almost 6 months left in school and big hopes and plans to spend all of my savings to finally see the world when I graduate, yet here I am facing the familair pressure of perapring for a job interview. I suppose when your dream jobs come up in listings, you 'ought to apply to them, regardless of your current plans or aspirations. Of course, I was extremely excited when I heard back after I applied, but anxious and nervous energy was soon to follow. I was quick to realize that a lot of what I thought that I knew so well from my machine learning class, actually had slightly faded in my memory. No worries though! What's that old saying? "Machine Learning is just like riding a bike"? Let's get to some machine learning review and preparation for this interview. 
+
+We can look at a couple of sources to know what we need to be prepared for this interview, but let's start with the most obvious one: [the job listing.](https://careers.cae.com/global/en/job/88620/Machine-Learning-Engineer)
+
+I may not be the most qualified and meet every single bullet point on here, but at the very least I should know what every bullet point means. A quick ChatGPT request or Google search will take care of that really quick. The assuring part of the process was that, even when I might have been unfamiliar with some terms, after I discovered what they meant I actually had more related knowledge than I thought. As part of the exercise, I will write out how I relate to each bullet.
+
+#### Job Listing
+
+##### Summary
+
+Your mission is to design and implement scalable Machine Learning (ML) and Deep Learning (DL) systems, products, and solutions. You will bridge the gap between the academic world of data science with products that our customers will use. <br>
+
+*I just got out of the academic world of Data Science and am excited to build real products so this looks like a great postition for me.*
+
+##### Essential Duties and Responsibilities
+
+- Collaborate with data engineers, developers, and technical leads to deliver AI-based systems that can be deployed both in the cloud and on edge using Azure, containers and Kubernetes. <br>
+
+*I don’t have experience with any cloud computing beyond Google collab or Kubernetes. I will have experience with containers and docker after I take Big Data Programming next semester.* 
+
+- Build deep learning-based training pipelines, leveraging latest deep learning and machine learning libraries. <br>
+*Most of my machine learning experience is with sci-kit learn, keras, and Tensor Flow from my machine learning class that I took. We worked with decision trees, gradient boosted trees, neural networks, convolutional neural networks, recurrent neural networks, and transformers.*
+- Measure and optimize the quality of deployed algorithms and models. <br>
+*Wealso  learned a couple of methods for measuring and optimizing models. Some examples would be using accuracy, precision, recall, ROC curves, R2 score, confusion matrices, grid search for hyperparamter tuning.*
+- Build and maintain Application Programming Interfaces (APIs) and/or Software development kit (SDKs) that will expose the models to application developers <br>
+*I don’t have experience building APIs. Some kids in my consulting class were building one as one of the projects for a non-profit organization, so if they can do it, then I can do it.* 
+- Build and maintain the CI/CD pipeline for ML. Think DevOps for ML. <br>
+*CI and CD refers to continous Integration and Continuous Deployment. My understanding of this bullet point with the context of DevOps automate the process of developing and deploying models with the end in mind so that they are easily deployable and usable.*
+
+##### Personality
+
+- Share knowledge with team members & participate in various learning-sharing activities
+- Contribute to the collaborative and stimulating work environment
+- Be a change agent & Agile mindset promoter
+- Be connected to the industry to know tendencies and suggest innovative ideas <br>
+*Teamwork is definitely a skill. I am always aware of how I present ideas. I feel that I work well in a team because I am usually not afraid to ask questions and present my ideas, and I also am not usually very attached to my ideas, so I don’t care if someone points out why the idea is wrong. On ocassion, feel a little concern if I’m on a team and nobody is arguing with me because I think it’s rare that I’m right the first time, and I worry that I might just be bulldozing over my team. I just care about getting the right answer, whoever it comes from. I am also a big believer in positive reinforcement and constructive feedback, as opposed to motivation through anger and fear. I also love agile frameworks ever since I read Scrum.*
+
+##### Qualifications
+- Must be eligible for DoD Personal Security Clearance Bachelor's degree in Computer Science, Engineering, or related quantitative field. <br>
+*I will have a major in Data Science and minors in Computer Science and Mathematics*
+- Understanding of data structures, data modeling and software architecture. <br>
+*I will be taking data structures next class. I feel very confident with data modeling if that refers to matching data to different probability density funtions or using linear regression. My expereince with software engineering is limited to building shiny apps in R and apps in Microsft Power Apps.*
+- Solid understanding of probability, statistics, and mathematics <br>
+*This is an area that I feel confident in after taking a course in calculus-based probability and statistics. It will improve as I take mathematics and bayesian statistics this semester and applied linear regression next semester.*
+- (Python/Java/Scala/C/C#/Bash). <br>
+*Most of my experience is in Python, Java was my first language a few years ago, going from Java to Python was really easy. I could brush up quickly on Java. I took two classes in Java. The second one we did things with inheritance and polymorphism and classes and such. I will be taking courses in C# next semester (data structures) and I think one other one. I don’t have as much experience using the terminal/command line as I’d like. I’ve done a little bit with git in one of my classes to submit our projects. My uncle showed me a little bit with how to manage conda and breakpoints one time in the terminal.*
+- 2 years’ experience developing secure and scalable web APIs <br>
+*None*
+- 2 years’ experience training, deploying, and monitoring machine learning models with extensive knowledge of evaluation metrics and best practices <br>
+*In the class I built evaluated and optimized 5 models for real-world situations. In my current part time job I am still working on prepping the data but will build a model for the client to predict sales of a new store in census tracts across two states.*
+- Experience with machine learning frameworks/libraries (Keras, Tensorflow, PyTorch, scikit-learn) and big data tools: Hadoop, Spark, Kafka. <br>
+*My whole class was built around using sci-kit learn and Tensorflow/Keras. In my Big Data Programming class next semester I will be working with PySpark in Databricks.*
+- Experience with relational SQL and NoSQL databases, including SQL Server, CosmosDB, MongoDB, Cassandra <br>
+*I have taken a class in MySQL using MySQL workbench.*
+- Experience with automated data pipeline and workflow management tools: DevOps, ARM, Data Factory, Airflow. <br>
+*Currently a big part of our project is that we are working with some data sources like mapbox, government data sources, and Data Axel that includes the sales of other competitor businesses. We are writing R scripts that can be reusable to pull updated data and format all of the sources and put them together so that they are ready to be used for the predictive model and then displayed in power BI. I haven't used any specific automation tools, but I am ready to learn them and pick them up quickly*
+- Experience with Microsoft Azure cloud services: Machine Learning, Databricks (or Apache Spark), Data Factory, SQL Data Warehouse. <br>
+*I will be working with DataBricks in my Big Data class next semester.*
+- Experience supporting and working with cross-functional teams in a dynamic environment.
+Experience within an Agile environment (i.e. user stories, iterative development, continuous integration, continuous delivery, shared ownership, etc.) <br>
+*My boss at Onsemi tasked me with reading the Scrum book by Jeff Southerland. Afterwards he would use user stories to explain assignments that he gave me.*
+Willingness to participate in all levels of project work when necessary.
+*I am team player and I am a recent college grad so I am humble and malleable.*
+- Excellent written and verbal communication skills. <br>
+*I love to write and I worked as a salesman for 5 months where I practiced speaking for hours and hours everyday.* 
+- A passion for bringing AI to production <br>
+*There is no other industry I would rather be working in. I think AI is really cool and is the future of the world. I want to be a part of it. I love that this job seems to tie together everything I’ve studied from mathematical statistics, to data exploration/visualization, wrangling, building machine learning models, and software engineering to make the models usable.*
+
+Well, aside from the two years experience qulaification, I feel pretty prepared for this job. Next, let's review some actual techinal material. This website [here](https://brainstation.io/career-guides/machine-learning-engineer-interview-questions)
+seems to be a great resource with some great practice questions. 
+
+#### Techinal Practice Questions 
+
+- What is the difference between supervised learning and unsupervised learning? <br>
+*Supervised learning is using labeled data and unsupervised learning would be something like cluster analysis where patterns are discovered to group things together without prior classification.*
+- What are the different types of machine learning? <br>
+*I mostly have experience with supervised learning (labled), but I know there are other kinds like unsupervised (unlabled like cluster analysis), and reinforcement learning (training to win a game).*
+- What is deep learning, and how does it contrast with other machine learning algorithms? <br>
+*Deep learning is use of neural networks like convolutional and recurrent neural networks. They require very large amounts of data but can be used on structured (images, video, audio) or unstructured data like text or speech.*
+- What are the differences between machine learning and deep learning? <br>
+*Deep learning is just a more specific kind of machine learning.*
+- Explain the confusion matrix with respect to machine learning algorithms. <br>
+*It is used to evaluate a classification model and then you can use these values to calculate accuracy, precision, recall and f-1 score. It shows type 1 and type 2 errors as well as observations that were classified correclty. Predicted is on the x-axis and actual is on the y-axis*
+- What is the difference between artificial intelligence and machine learning? <br>
+* I know that machine learning is subfield of AI although it is not clear to me what would be something that is considered an AI technology that is not machine learning.*
+- What’s the trade-off between bias and variance? <br>
+*Bias is how far a off a model’s prediction is and variance is the measure of the spread of a model’s predictions. This question refers to the idea of overfitting and underfitting. A model that is underfit is too simple and will just be wrong with high bias. A model that is overfit will be too sensitive and essentially be affected too strongly by outliers so that it won’t follow the actual underlying pattern. This will cause it to have a higher variance in its predictions.*
+- Explain the difference between L1 and L2 regularization. <br>
+*Regularization is used to penalize certain perameters more than others to prevent overfitting.L1 regularization adds "absolute value of magnitude" of coefficient as a penalty term to the loss function. L2 regularization adds "squared magnitude" of coefficient as a penalty term to the loss function.*
+- What’s your favorite algorithm, and can you explain it to me in less than a minute? <br>
+*I will get to this later.*
+- How is KNN different from k-means clustering? <br>
+*It is a difference of supervised learning vs unsupervised learning. K-nearest neighbor will take an unlabeled target and assign it the target feature based on a specified amount(k) of its nearest neighbors (this is like if we plotted all of the observations based on their known feature values). Clustering will do the same sort of plotting when none of the observations have been labeled and then label them based on ones that seem like they are close together.*
+- What is cross validation and what are different methods of using it? <br>
+* As I understand it, there different cross validation methods to used to test your model before giving it the final test data and tune the hyperpareamters primarily, like with the regular validation set. Cross validation uses all of the data for validation, rather than just the validation set. K-folds is a method where the data is split into k portions, each of the portions are used once in an iteration as the testing set of data, while the model is trained on the rest of it. At the end of all iterations, one for each kth of the data, the model’s performance is summarized across all of the folds.*
+- Explain how a ROC curve works. <br>
+*It summarizes the performance of a model across different thresholds. True psotives are represented on the y axis and false positives on the x-axis. The model's performance at each threshhold is plotted on this chart. All of the points form a curve. The more area under the curve, the better the model perfomed overall.*
+- What’s the difference between probability and likelihood? <br>
+*Probability is the measure of how likley something is to occur, usually represented as a decimal.
+Likelihood is the measure of how well a statistical model fits data. Right now I am learning about the maximum likelihood estimator where we use the score function to calculate the fisher information. The idea essentially is that you can have a pdf be a function of its parameters and the max of this function will be the value of the parameter that is most likely to be the parameter of the function of the data.*
+- What’s the difference between a generative and discriminative model? <br>
+*Not sure. May check this out later.*
+- How is a decision tree pruned? <br>
+*Pruning is removing nodes from a decison tree that don’t make much of a difference in the model’s accuracy. There isn’t much information gain from the split at that node so it is removed.*
+- How can you choose a classifier based on a training set size? <br>
+*The larger the dataset the more complex the model you would use.*
+- What methods for dimensionality reduction do you know and how do they compare with each other?
+*No idea. May come back to this one.*
+- Define precision and recall. <br>
+*Precision measures the accuracy of the positive predictions made by the model. Improvement in precison minimizes type 1 error. Recall measures true positive predictions out of all actual positive cases in the dataset. Improvemnt in recall minimizes type two error.* 
+- What’s a Fourier transform? <br>
+*I am not sure. I may come back to this.*
+- What’s the difference between Type I and Type II error? <br>
+*Type I error is a false positive, type II is a false negative.*
+- When should you use classification over regression? <br>
+*A classification model is used to predict categorical labels and regression models are for predicting numerical labels.*
+- How would you evaluate a logistic regression model? <br>
+*It depends on the context which evaluation metric is most important, but your standard confusion matrix, ROC curve, precision, recall, and f1 score are all good metrics to possibly use. 
+- What is Bayes’ Theorem? How is it useful in a machine learning context? <br>
+*When I solve a bayes theorem problem, I essentially will just write out a decision tree which is similar to how an actual decision tree machine learning model works. The premise is that given event A has occurred, what is the probability that event B will occur?*
+- Describe a hash table. <br>
+*It is a dictionary in python or a map in javascript. Hash tables uses key-value pairs to store data as opposed to just storing based on index like a list or a vector.*
+- How would you handle an imbalanced dataset? <br>
+*You could oversample vs undersample, use the right evaluation metrics, or modify the decision threshold. Oversampling can lead to overfititng and
+undersampling can lead to loss of important data. Synthetic oversampling is better than creating duplicates for simple oversampling.*
+- How do you handle missing or corrupted data in a dataset? <br>
+*Some options could be removing observations that aren’t very useful, filling in NAs with a measure of central tendency that makes sense, like the mean, median, or mode, forward filling, kind of the idea of k nearest neighbor. I have laso heard of using machine learning to predict those missing features in some cases.*
+- Do you have experience with Spark or big data tools for machine learning? <br>
+*I will have experience with spark and databricks after next semester.*
+- Pick an algorithm. Write the pseudo-code for a parallel implementation. <br>
+*I will have experience with this as well after next semester when I take algorithms and complexities, as well as parallelism and concurrency.*
+- Which data visualization libraries do you use? What are your thoughts on the best data visualization tools? <br>
+*In python I use altair and plotly although i prefer using ggplot in R when it comes to visualization. It’s simple and easy, but you can be very specific with what you want, and it is really well documented.*
+- Given two strings, A and B, of the same length n, find whether it is possible to cut both strings at a common point such that the first part of A and the second part of B form a palindrome. 
+
+```python
+def palindrome(x, y):
+  if len(x) != len(y): return "Invalid inputs. Length must be the same."
+  for i in range(0, len(x)):
+    pal = x[:i] + y[i:]
+    if pal == pal[::-1]: return True
+  return False
+```
+
+- How would you build a data pipeline? <br>
+*A general process usually looks like loading the data (from an API or database or something) wrangling the data, which coudl be working with missing data, making sure that it is all in the right format, with each row as an observation, feature engineering, preparing categorical features, like one hot encoding or dummy encoding, normalization, then splitting the data into training, validation, and test data.*
+- How would you implement a recommendation system for our company’s users?  <br>
+*Features I would use would be the most commonly asked questions and as well as the user’s previous requests, as well as time passed since each of those requests. So maybe each common request could be a feature with it’s percentage in the data, and then how many times the user has made previous requests as well and then time passed for each request would be another feature, or were it lands in reverse sequential order of requests made. I could use these features to predict the most likley request with a machine learning model.*
+- Can you explain your approach to optimizing auto-tagging? <br>
+*CNNs for images and NLP for text. Train each model to label for specific things. One model for porn, for violence, one for angry or hateful speech.* 
+- Suppose you found that your model is suffering from low bias and high variance. Which algorithm do you think could tackle this situation and why?
+*Your model is overfit. Use regularization or a simpler model like a decision tree, k nearest means, or logistic regression.*
+- What are the advantages and disadvantages of neural networks? <br>
+* Disadvantages are that they are prone to overfittin, require a lot of data and it is hard to know what is driving their decisions. Advantages are that they can pick up really subtle relationships in data and work with unstructured data.*
+- How would you go about understanding the sorts of mistakes an algorithm makes? <br>
+*I would visualize the models predictions in a confusion matrix. If it is a regression model then I would visualize it in a cartesian chart. It would depend on the context.*
+- Explain the steps involved in making decision trees. <br>
+*The measure of entropy for each variable is used to decide which feature to split the data with first. You are best off if you can split 50%. This process is repeated however many times the model is specified to do so (tree depth hyperparameter).*
+
+I am feeling more excited and confident with every question! The last three things to do now are to answer some practice personal questions (like the tell me about yourself one especially), get some real hands on practice with machine learning coding in sci-kit learn and tensorflow, and finally prepare my own interview questions. After all, while I am thrilled to have this interview opportunity, this is also a two-way negotiation. They need to sell me on the on this job as well. Take some advice from
+[Saul Goodman.](https://www.youtube.com/watch?v=FaJToC27bcg)
+
+
+
+
+
+
+

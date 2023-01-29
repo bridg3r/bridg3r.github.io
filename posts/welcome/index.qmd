@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog"
+author: "Bridger Hackworth"
+date: "2023-01-27"
+categories: [news]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+I have been tasked with starting a blog as part of my senior project class. I really enjoy writing so I hope to put continue my blog after the class. As of late, I have noticed that at times I may not be an effective communicator when it comes to explaining code or mathematics. Can anyone else relate? I sometimes feel like my brain moves faster than my mouth can put my thoughts into words and then everything I say comes out sounding incoherent. Writing and blogging about what I learn can be a great way to improve my communication skills and my ability to put my thoughts into clear organized words. 
